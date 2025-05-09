@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ΑΙΤΗΣΗ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Αρχικη</a></li>
+            <li><a href="more.html">ΠΕΡΙΣΣΟΤΕΡΑ</a></li>
+            <li><a href="reqs.html">ΕΛΑΧΙΣΤΕΣ ΑΠΑΙΤΗΣΕΙΣ</a></li>
+            <li><a href="application.html">ΑΙΤΗΣΗ</a></li>
+            <li><a href="signup.html">ΕΓΓΡΑΦΗ</a></li>
+            <li><a href="login.html">ΕΙΣΟΔΟΣ</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <form >
+            <div>
+                <label for="fname"> Ονομα:</label>
+                <input type="text" id="fname">
+            </div>    
+            <br>
+            <div>
+                <label for="fsurname"> Επίθετο:</label>
+                <input type="text" id="fsurname">
+            </div>
+            <br>
+            <div>
+                <label for="fnumber"> Αριθμός Μητρώου:</label>
+                <input type="text" id="fnumber">
+            </div>
+            <br>
+            <label for="Αριθμός">Ποσοστό περασμενων μαθηματων</label>
+          <input type="number" name="Αριθμός" id="Αριθμός" min="0" max="100">
+          <br>
+          <br>
+          <label for="μεσος ορος">Μέσος ορος</label>
+          <input type="number" name="μεσος ορος">
+          <br>
+          <br>
+          <label for="title">Επιπεδο Αγγλικων</label>
+          <label for="A1">Α1</label>
+          <input type="radio" id="A1" name="title" value="A1">
+          <label for="A2">Α2</label>
+          <input type="radio" id="A2" name="title" value="A2">
+          <label for="B1">B1</label>
+          <input type="radio" id="B1" name="title" value="B1">
+          <label for="B2">B2</label>
+          <input type="radio" id="B2" name="title" value="B2">
+          <label for="C1">C1</label>
+          <input type="radio" id="C1" name="title" value="C1">
+          <label for="C2">C2</label>
+          <input type="radio" id="C2" name="title" value="C2">
+          <br>
+          <br>
+          <label for="title"> Γνώση επιπλέον ξένων γλωσσών</label>
+          <label for="ΝΑΙ">ΝΑΙ</label>
+          <input type="radio" id="ΝΑΙ" name="title" value="ΝΑΙ">
+          <label for="ΟΧΙ">ΟΧΙ</label>
+          <input type="radio" id="ΟΧΙ" name="title" value="ΟΧΙ">
+          <br>
+          <br>
+          <label for="παμεπηστημια1">1η επιλογη πανεπηστημιου</label>
+          <select name="παμεπηστημια1" id="παμεπηστημια1">
+            <option value="πανεπηστημιο της Βιεννης">πανεπηστημιο της Βιεννης
+            <option value="πανεπηστημιο του Στρασβούργο">πανεπηστημιο του Στρασβούργο
+            <option value="πανεπηστημιο πελοπονησου">πανεπηστημιο Πελοπονησου
+            <option value="πανεπηστημιο της Γραναδα">πανεπηστημιο της Γραναδα    
+          </select>
+          <br>
+          <br>
+          <label for="παμεπηστημια2">2η επιλογη πανεπηστημιου</label>
+          <select name="παμεπηστημια2" id="παμεπηστημια1">
+            <option value="πανεπηστημιο της Βιεννης">πανεπηστημιο της Βιεννης
+            <option value="πανεπηστημιο του Στρασβούργο">πανεπηστημιο του Στρασβούργο
+            <option value="πανεπηστημιο πελοπονησου">πανεπηστημιο Πελοπονησου
+            <option value="πανεπηστημιο της Γραναδα">πανεπηστημιο της Γραναδα    
+          </select>
+          <br>
+          <br>
+          <label for="παμεπηστημια3">3η επιλογη πανεπηστημιου</label>
+          <select name="παμεπηστημια3" id="παμεπηστημια3">
+            <option value="πανεπηστημιο της Βιεννης">πανεπηστημιο της Βιεννης
+            <option value="πανεπηστημιο του Στρασβούργο">πανεπηστημιο του Στρασβούργο
+            <option value="πανεπηστημιο πελοπονησου">πανεπηστημιο Πελοπονησου
+            <option value="πανεπηστημιο της Γραναδα">πανεπηστημιο της Γραναδα    
+          </select>
+          <br>
+          <br>
+          <label for="MyFile1">Αναλυτικη βαθμολογια</label>
+          <input type="file" name="MyFile1">
+          <input type="submit" value="upload file">
+          <br>
+          <br>
+          <label for="MyFile2">Πτυχιο Αγγλικων</label>
+          <input type="file" name="MyFile2">
+          <input type="submit" value="upload files">
+          <br>
+          <br>
+          <label for="MyFile3">Πτυχια αλλων ξενων γλωσσων</label>
+          <input type="file" name="MyFile3" multiple>
+          <input type="submit" value="upload files">
+
+        </form>
+    </div>
+</body>
+</html>
